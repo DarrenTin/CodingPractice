@@ -1,0 +1,9 @@
+.selected-item {
+    text-align: center;
+    margin: 20px;
+  }
+  
+  .selected-item img {
+    max-width: 100px;
+    height: auto;
+  }

@@ -1,0 +1,19 @@
+.molecules-list {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin: 20px 0;
+}
+
+.molecules-list button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.molecules-list button:hover {
+    background-color: #45a049;
+}

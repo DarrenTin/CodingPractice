@@ -1,0 +1,37 @@
+/* src/App.css */
+
+.cart {
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin: 20px;
+  }
+  
+  .cart ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .cart li {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+  }
+  
+  .cart .summary {
+    border-top: 1px solid #ddd;
+    padding-top: 10px;
+  }
+  
+  .cart button {
+    padding: 5px 10px;
+    margin-left: 10px;
+    border: none;
+    background-color: #f44336;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .cart button:hover {
+    background-color: #d32f2f;
+  }
+  

@@ -1,12 +1,17 @@
 import './App.css';
 import React from 'react';
 import MoleculeList from './components/MoleculeList';
+// import { CartProvider } from './context/CartContext';
+// import Cart from './components/Cart';
 
 function App() {
   return (
-    <div className="App">
-      <MoleculeList />
-    </div>
+      // <CartProvider>
+        <div className='App'>
+        <MoleculeList />
+        {/* <Cart /> */}
+        </div>
+      // </CartProvider>
   );
 }
 

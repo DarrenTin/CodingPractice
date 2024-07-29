@@ -1,0 +1,44 @@
+.vertical-menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 200px;
+    height: 100%;
+    background-color: #333;
+    color: white;
+    transition: transform 0.3s ease;
+    transform: translateX(-100%);
+}
+
+.menu-button {
+    background-color: #333;
+    color: white;
+    border: none;
+    font-size: 2rem;
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    cursor: pointer;
+}
+
+.menu-content {
+    padding-top: 50px;
+}
+
+.menu-content ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.menu-content ul li {
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.menu-content ul li:hover {
+    background-color: #575757;
+}
+
+.vertical-menu.open {
+    transform: translateX(0);
+}

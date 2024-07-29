@@ -1,0 +1,28 @@
+.hero-section {
+    text-align: center;
+    padding: 50px;
+    background: #f4f4f4;
+}
+
+.hero-buttons {
+    margin: 20px 0;
+}
+
+.hero-buttons button {
+    margin: 0 10px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px 0;
+}
+
